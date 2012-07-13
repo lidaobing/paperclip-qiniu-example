@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 gem 'paperclip'
 gem 'paperclip-qiniu', :git => 'https://github.com/lidaobing/paperclip-qiniu.git'
+#gem 'paperclip-qiniu', :path => '../paperclip-qiniu'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

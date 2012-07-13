@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lidaobing/paperclip-qiniu.git
-  revision: 13005ac4cb8bf1711d0af49684aaec1476d69573
+  revision: 07fd398a78a9fb71a8e400737bd1c3c00ae28fe0
   specs:
     paperclip-qiniu (0.0.1)
       paperclip
