@@ -64,7 +64,8 @@ module PaperclipQiniuExample
         :secret_key => ENV['QINIU_SECRET_KEY'] || raise("set env QINIU_SECRET_KEY")
       },
       :bucket => "paperclip-qiniu-example",
-      :use_timestamp => false
+      :use_timestamp => false,
+      :qiniu_host => 'http://paperclip-qiniu-example.lidaobing.com'
     }
   end
 end
