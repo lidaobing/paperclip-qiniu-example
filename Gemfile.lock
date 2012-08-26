@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/lidaobing/paperclip-qiniu.git
-  revision: 0934ecf6623c38dfbcabca30b964d412da093d18
+  revision: a6c4796eda94265e3deb8fc6fd690a9a8096e022
   specs:
     paperclip-qiniu (0.0.2)
       paperclip
-      qiniu-rs
+      qiniu-rs (~> 3.0)
 
 GEM
   remote: https://rubygems.org/
