@@ -22,8 +22,8 @@ end
 
 gem 'jquery-rails'
 gem 'paperclip'
-gem 'paperclip-qiniu', :git => 'https://github.com/lidaobing/paperclip-qiniu.git'
-#gem 'paperclip-qiniu', :path => '../paperclip-qiniu'
+#gem 'paperclip-qiniu', :git => 'https://github.com/lidaobing/paperclip-qiniu.git'
+gem 'paperclip-qiniu', :path => '../paperclip-qiniu'
 
 group :development do
   gem 'sqlite3'
