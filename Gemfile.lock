@@ -1,5 +1,6 @@
-PATH
-  remote: ../paperclip-qiniu
+GIT
+  remote: https://github.com/lidaobing/paperclip-qiniu.git
+  revision: d1d5f8ca9710c35a8562a6e3da1963eccde8554b
   specs:
     paperclip-qiniu (0.0.3)
       paperclip

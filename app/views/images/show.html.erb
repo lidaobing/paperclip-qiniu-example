@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-<%= image_tag qiniu_image_path @image.file.url, :thumbnail => '300x300>' %>
+<%= qiniu_image_tag @image.file.url, :thumbnail => '300x300>', :quality => 80 %>
 
 <%= link_to 'Edit', edit_image_path(@image) %> |
 <%= link_to 'Back', images_path %>
