@@ -58,14 +58,5 @@ module PaperclipQiniuExample
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-    config.paperclip_defaults = {:storage => :qiniu,
-      :qiniu_credentials => {
-        :access_key => ENV['QINIU_ACCESS_KEY'] || raise("set env QINIU_ACCESS_KEY"),
-        :secret_key => ENV['QINIU_SECRET_KEY'] || raise("set env QINIU_SECRET_KEY")
-      },
-      :bucket => "paperclip-qiniu-example",
-      :use_timestamp => false,
-      :qiniu_host => 'http://paperclip-qiniu-example.lidaobing.com'
-    }
   end
 end
