@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 gem 'paperclip'
 gem 'paperclip-qiniu', :git => 'https://github.com/lidaobing/paperclip-qiniu.git'
+gem 'rack-qiniu_mock', :path => '../rack-qiniu_mock'
 #gem 'paperclip-qiniu', :path => '../paperclip-qiniu'
 
 group :development do
