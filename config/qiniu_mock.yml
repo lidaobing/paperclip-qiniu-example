@@ -1,0 +1,5 @@
+separator: '-'
+suffixs:
+  large: ['resize', '660x400']
+  medium: ['resize', '220x150']
+  small: ['resize_with_crop', '50x50']
