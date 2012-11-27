@@ -34,5 +34,5 @@ PaperclipQiniuExample::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
-  config.middleware.insert_after ActionDispatch::Static, ::Rack::QiniuMock::Context
+  config.middleware.insert_after ActionDispatch::Static, ::Rack::QiniuMock
 end

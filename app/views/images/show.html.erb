@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-<%= image_tag @image.file.url%>
+<%= image_tag qiniu_image(@image.file, "c660_400.jpg")%>
 
 <%= link_to 'Edit', edit_image_path(@image) %> |
 <%= link_to 'Back', images_path %>
