@@ -10,7 +10,7 @@
 <% @images.each do |image| %>
   <tr>
     <td>
-      <%= qiniu_image_tag image.file.url, :thumbnail => '100x100>', :quality => 80 %>
+      <%= image_tag qiniu_image(image.file, "c218_134.jpg")%>
     </td>
     <td><%= link_to 'Show', image %></td>
     <td><%= link_to 'Edit', edit_image_path(image) %></td>
