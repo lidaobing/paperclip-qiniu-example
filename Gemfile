@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -22,7 +22,7 @@ end
 
 gem 'jquery-rails'
 gem 'paperclip'
-gem 'paperclip-qiniu', :git => 'https://github.com/lidaobing/paperclip-qiniu.git'
+gem 'paperclip-qiniu', :github => 'lidaobing/paperclip-qiniu'
 #gem 'paperclip-qiniu', :path => '../paperclip-qiniu'
 
 group :development do
