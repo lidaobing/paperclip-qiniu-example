@@ -3,8 +3,8 @@
 <table>
   <tr>
     <th></th>
-    <th></th>
-    <th></th>
+    <th>Size</th>
+    <th>Actions</th>
   </tr>
 
 <% @images.each do |image| %>
@@ -12,9 +12,14 @@
     <td>
       <%= qiniu_image_tag image.file.url, :thumbnail => '100x100>', :quality => 80 %>
     </td>
-    <td><%= link_to 'Show', image %></td>
-    <td><%= link_to 'Edit', edit_image_path(image) %></td>
-    <td><%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td>
+      <%= image.file.image_size %>
+    </td>
+    <td>
+      <%= link_to 'Show', image %>
+      <%= link_to 'Edit', edit_image_path(image) %>
+      <%= link_to 'Destroy', image, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
   </tr>
 <% end %>
 </table>
