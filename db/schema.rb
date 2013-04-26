@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120713132442) do
+ActiveRecord::Schema.define(:version => 20130426080220) do
 
   create_table "images", :force => true do |t|
     t.string   "file_file_name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20120713132442) do
     t.datetime "file_updated_at"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.text     "file_meta"
   end
 
 end
