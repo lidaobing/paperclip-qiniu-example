@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 gem 'paperclip'
 gem 'paperclip-qiniu', :github => 'lidaobing/paperclip-qiniu'
+gem 'paperclip-meta'
 #gem 'paperclip-qiniu', :path => '../paperclip-qiniu'
 
 group :development do
