@@ -1,12 +1,13 @@
-PATH
-  remote: ../paperclip-qiniu
+GIT
+  remote: git://github.com/lidaobing/paperclip-qiniu.git
+  revision: a6b0ab8d012d532edd9139c4c218acdf90cf7caf
   specs:
     paperclip-qiniu (0.1.0)
       paperclip
       qiniu-rs (~> 3.0)
 
 GEM
-  remote: http://ruby.taobao.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (3.2.16)
       actionpack (= 3.2.16)
@@ -69,6 +70,7 @@ GEM
       mime-types
     paperclip-meta (1.0.0)
       paperclip (>= 3.0.2, < 5.0)
+    pg (0.17.1)
     polyglot (0.3.3)
     qiniu-rs (3.4.6)
       json (~> 1.7)
@@ -135,6 +137,7 @@ DEPENDENCIES
   paperclip (~> 4.0)
   paperclip-meta
   paperclip-qiniu!
+  pg
   quiet_assets
   rails (= 3.2.16)
   sass-rails (~> 3.2.3)
