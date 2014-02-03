@@ -24,7 +24,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'paperclip', '~> 3.0'
+gem 'paperclip', '~> 4.0'
 #gem 'paperclip-qiniu', :github => 'lidaobing/paperclip-qiniu'
 gem 'paperclip-meta'
 gem 'paperclip-qiniu', :path => '../paperclip-qiniu'

@@ -62,7 +62,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.8.4)
-    paperclip (3.5.3)
+    paperclip (4.0.0)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
@@ -132,7 +132,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
-  paperclip (~> 3.0)
+  paperclip (~> 4.0)
   paperclip-meta
   paperclip-qiniu!
   quiet_assets
