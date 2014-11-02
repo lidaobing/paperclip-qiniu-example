@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 #source 'http://ruby.taobao.org'
 
-ruby "2.1.0"
+ruby "2.1.3"
 
-gem 'rails', '3.2.18'
+gem 'rails', '3.2.20'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
