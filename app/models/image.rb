@@ -1,5 +1,5 @@
 class Image < ActiveRecord::Base
-  attr_accessible :file
+  #attr_accessible :file
   has_attached_file :file,
     :path => ":class/:attachment/:id/:basename.:extension"
 
