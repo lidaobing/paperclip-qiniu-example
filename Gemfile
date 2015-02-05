@@ -1,5 +1,6 @@
 source 'http://ruby.taobao.org'
 
+ruby '2.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -25,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paperclip', '~> 4.0'
 gem 'paperclip-meta'
 gem 'paperclip-qiniu', :github => 'liubin/paperclip-qiniu', :branch => 'liubin/upgrade-ruby-sdk'
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
