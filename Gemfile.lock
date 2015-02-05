@@ -8,7 +8,7 @@ GIT
       qiniu (~> 6.4.1)
 
 GEM
-  remote: http://ruby.taobao.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (4.2.0)
       actionpack (= 4.2.0)
