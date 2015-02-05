@@ -1,9 +1,8 @@
 GIT
-  remote: git://github.com/liubin/paperclip-qiniu.git
-  revision: fe80d4c5d7b49599c83c7229b0f79f8e3f9cd36a
-  branch: liubin/upgrade-ruby-sdk
+  remote: git://github.com/lidaobing/paperclip-qiniu.git
+  revision: e5b1258359ba9440758250ce3c99f55e1fd1062c
   specs:
-    paperclip-qiniu (0.1.1)
+    paperclip-qiniu (0.2.0)
       paperclip
       qiniu (~> 6.4.1)
 

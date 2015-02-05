@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'paperclip', '~> 4.0'
 gem 'paperclip-meta'
-gem 'paperclip-qiniu', :github => 'liubin/paperclip-qiniu', :branch => 'liubin/upgrade-ruby-sdk'
+gem 'paperclip-qiniu', :github => 'lidaobing/paperclip-qiniu'
 gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
